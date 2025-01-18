@@ -1,0 +1,82 @@
+@import '../../../styles/variables.scss';
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5rem 5rem;
+    border-bottom: .1rem solid $gray-100;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    .wrapper-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 3.6rem;
+        height: 3.6rem;
+        border-radius: 1rem;
+        background-color: $black-900;
+    }
+
+    h2 {
+        font-size: 2rem;
+        font-weight: 600;
+        color: $black-900;
+    }
+}
+
+nav {
+    ul {
+        display: flex;
+        border: .1rem solid $gray-100;
+        border-radius: 4rem;
+
+        li {
+            list-style: none;
+            height: min-content;
+
+            a {
+                padding: 1.2rem;
+                font-size: 1.4rem;
+                list-style: none;
+                color: $gray-900;
+                transition: .5s ease-out;
+            }
+        }
+
+        /*
+        li {
+            padding: 1.2rem;
+            font-size: 1.4rem;
+            list-style: none;
+            color: $gray-900;
+            transition: .5s ease-out;
+        }
+
+        li:not(:last-child){
+            border-right: .1rem solid $gray-100;
+        }
+
+        li:hover {
+            cursor: pointer;
+            background-color: $gray-100;
+        }
+
+        :nth-child(1) {
+            padding: 1.2rem 1.2rem 1.2rem 2.4rem;
+            border-top-left-radius: 4rem;
+            border-bottom-left-radius: 4rem;
+        }
+
+        :nth-child(6) {
+            padding: 1.2rem 2.4rem 1.2rem 1.2rem;
+            border-top-right-radius: 4rem;
+            border-bottom-right-radius: 4rem;
+        }*/
+    }
+}
