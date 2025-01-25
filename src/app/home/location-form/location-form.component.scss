@@ -1,0 +1,34 @@
+@import '../../../styles/variables.scss';
+@import '../../../styles/input.scss';
+@import '../../../styles/button.scss';
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 2.8rem;
+
+    .form-header {
+        div {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+    
+            h3 {
+                font-size: 2rem;
+                font-weight: 500;
+                color: $black-900;
+            }
+        }
+    
+        p {
+            font-size: 1.4rem;
+            color: $gray-600;
+        }
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 1.4rem;
+    }
+}

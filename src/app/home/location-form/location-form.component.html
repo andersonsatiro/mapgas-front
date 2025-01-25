@@ -1,0 +1,66 @@
+<section>
+    <div class="form-header">
+        <div>
+            <img src="/assets/star.svg" alt="Símbolo de estrela">
+            <h3>Melhor posto para você</h3>
+        </div>
+        <p>encontre o posto de acordo com o endereço</p>
+    </div>
+
+    <form>
+        <div class="input-wrapper">
+            <label for="cep">CEP</label>
+            <input
+                type="text"
+                name="cep"
+                id="cep"
+                placeholder="59000000"
+                maxlength="8"
+                pattern="\d{8}"
+                required
+            >
+            <img src="/assets/location.svg" alt="Símbolo de localização">
+        </div>
+
+        <div class="input-wrapper">
+            <label for="state">Estado</label>
+            <input
+                type="text"
+                name="state"
+                id="state"
+                placeholder="Rio Grande do Norte"
+                required
+            >
+            <img src="/assets/location.svg" alt="Símbolo de localização">
+        </div>
+
+        <div class="input-wrapper">
+            <label for="city">Cidade</label>
+            <input
+                type="text"
+                name="city"
+                id="city"
+                placeholder="São Gonçalo do Amarante"
+                required
+            >
+            <img src="/assets/location.svg" alt="Símbolo de localização">
+        </div>
+
+        <div class="input-wrapper">
+            <label for="street">Rua</label>
+            <input
+                type="text"
+                name="street"
+                id="street"
+                placeholder="Rua Alexandre Cavalcanti"
+                maxlength="19"
+                required
+            >
+            <img src="/assets/location.svg" alt="Símbolo de localização">
+        </div>
+
+        <button>
+            Encontrar postos
+        </button>
+    </form>
+</section>
