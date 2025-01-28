@@ -5,4 +5,11 @@ main {
     flex-direction: column;
     margin-top: 6.4rem;
     gap: 6.4rem;
+    margin-bottom: 6.4rem;
+
+    .gas-station-suggestion {
+        display: flex;
+        align-items: center;
+        gap: 4.8rem;
+    }
 }
