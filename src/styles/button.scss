@@ -3,6 +3,8 @@
 button {
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 100%;
     font-size: 1.4rem;
     font-weight: 600;
     padding: 0.8rem 0;
@@ -11,6 +13,7 @@ button {
     border-radius: 0.8rem;
     background-color: $blue-500;
     transition: 0.5s ease-out;
+    height: 4rem;
 }
 
 button:hover {

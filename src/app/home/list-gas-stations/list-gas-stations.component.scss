@@ -1,0 +1,25 @@
+@import '../../../styles/button.scss';
+
+form {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 2rem;
+    row-gap: 1.2rem;
+
+    input {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 1.2rem;
+        border: 0.1rem solid $gray-100;
+        border-radius: 0.8rem;
+
+        font-size: 1.4rem;
+        height: 4rem;
+        color: $gray-600;
+    }
+
+    .search-name {
+        grid-column: span 2;
+    }
+}
