@@ -8,6 +8,10 @@ section {
     gap: 2.8rem;
 
     .form-header {
+        display: flex;
+        flex-direction: column;
+        gap: 0.6rem;
+
         div {
             display: flex;
             align-items: center;
@@ -30,5 +34,22 @@ section {
         display: flex;
         flex-direction: column;
         gap: 1.4rem;
+
+        .form-separator {
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+
+            div {
+                border-top: 0.15rem solid $gray-100;
+                width: 100%;
+            }
+
+            span {
+                font-size: 1.1rem;
+                font-weight: 600;
+                color: $gray-500;
+            }
+        }
     }
 }
