@@ -18,13 +18,25 @@
                 maxlength="8"
                 pattern="\d{8}"
                 required
+                (input)="changeCepValue($event)"
+                [ngStyle]="{'border: 1px solid': invalidCep}"
+                class="invalid"v
+                [ngClass]="{'invalid': invalidCep}"
             >
             <img src="/assets/location.svg" alt="Símbolo de localização">
+
+            <div class="options" >
+                <div>29202020, RN</div>
+                <div>29202020, RJ</div>
+                <div>29202020, SP</div>
+                <div>29202020, PB</div>
+                <div>29202020, BA</div>
+            </div>
         </div>
 
         <div class="form-separator">
             <div></div>
-            <span>OR</span>
+            <span>OU</span>
             <div></div>
         </div>
 
